@@ -1,0 +1,58 @@
+/*MEXER EM TODO O CORPO DO PROJETO */
+body{
+  color: white;/* MEXER NA COR DE TODA ESCRITA */
+  background-color: black;/* MEXER NA COR DO FUNDO */
+  font-family: Arial, Helvetica, sans-serif;/* MEXER NA FONTE DE TODO PROJETO */
+}
+/* MEXER NA LISTA */
+ul{
+  display: flex; /*DEIXAR O TEXTO SOLTO*/
+  justify-content: space-between;/*DEIXAR O TEXTO ESPAÇADO IGUALMENTE*/
+  list-style-type: none;/*TIRAR A MARCAÇÃO DA LISTA °*/
+  align-items: center;/*VERTICALMENTE ALINHADO NO CENTRO*/
+  padding: 16px; /**/
+}
+/* MEXER NO TEXTO LINKADO */
+a{
+  color: white;/*DEIXAR O TEXTO COM LINK BRANCO*/
+  text-decoration: none;/*DEIXAR O TEXTO COM LINK SEM SUBLINHADO*/
+}
+/* MEXER na IMAGEm do header */
+header img{
+  width: 100px;/*DEIXAR A IMAGEM COM 100PX DE LARGURA*/
+  border-radius: 50%;/*DEIXAR A IMAGEM COM BORDA ARREDONDADA*/
+  border: 5px solid blueviolet;/*DEIXAR A BORDA COM 5PX DE LARGURA E ROXA*/
+}
+/* MEXER NA DIV Q SE ENCONTRA A IMAGEM DIV/IMG */
+.center{
+  text-align: center;/*ALINHAR A DIV COM NOME CENTER*/
+}
+
+footer img{/*MEXER NA IMAGEM DO RODAPÉ */
+  width: 35px;/*MEXER NA LARGURA*/
+  height: 35px;/*MEXER NA ALTURA*/
+}
+footer{/*MEXER NO RODAPÉ*/
+  display: flex;/*DEIXAR OS CONTEUDOS SOLTOS*/
+  justify-content: center;/*ALINHAR IMAGEM E TEXTO AO CENTRO*/
+}
+footer a{/*MEXER NO LINKADO DO RODAPÉ*/
+  margin: 30px;/*ALTERAR AS MARGENS*/
+  text-align: center;/*ALINHAR O TEXTO COM O CENTRO DA IMAGEM*/
+}
+footer p{/*MEXER NO PARAGRAFO DO RODAPE*/
+  margin-top: 2px;/*ALTERAR A MARGEM DE CIMA*/
+}
+.container{/*MEXER NA DIV COM NOME CONTAINER*/
+  padding: 0px 50px;/*ALTERA O PADDING PARA 0PX EM CIMA E EM BAIXO E 50PX PARA AS LATERAIS*/
+}
+nav a:hover{/*MEXE NA FRASE LINKADA*/
+  color: blueviolet;/*QUANDO O MOUSE ESTIVER EM CIMA ALTERA A COR PARA ROXO*/
+}
+h1{/*MEXE NO TITULO*/
+  color: blueviolet;/*ALTERA A COR DO TITULO*/
+  margin: 0px;/*MEXE NA MARGEM*/
+}
+h2{/*MEXE NO SUBTITULO*/
+  margin: 0px;/*MEXE NA MARGEM*/
+}
